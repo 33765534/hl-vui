@@ -1,0 +1,16 @@
+// 导入 tailwind 的基础指令
+@tailwind base;
+@tailwind components; // 组件
+@tailwind utilities; // 工具库
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+}
+
+.driver-fix-stacking {
+    position: relative;
+}
+
+.driver-navigation-btns {
+    line-height: 0;
+}
